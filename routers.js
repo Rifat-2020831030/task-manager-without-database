@@ -12,8 +12,8 @@ let tasks = [
     }
 ];
 
-router.get('/', (req, res)=>{
-    console.log(tasks);
+router.get('/api/get', (req, res)=>{
+    // console.log(tasks);
     res.send(tasks);
 });
 

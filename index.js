@@ -14,3 +14,9 @@ app.listen(PORT, ()=>{
     console.log(`server is running on http://localhost:${PORT}`);
 });
 
+// all routes
+// get task -> http://localhost:3000/api/get
+// post task -> http://localhost:3000/
+// search task by id -> http://localhost:3000/:id  - GET REQUEST
+// update status -> http://localhost:3000/:id   - PATCH REQUEST
+// delete task -> http://localhost:3000/:id  - DELETE REQUEST
